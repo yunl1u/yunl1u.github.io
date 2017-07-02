@@ -1,0 +1,34 @@
+/*li{
+	color:blue;
+	font-size:15pt;
+}
+
+h1{
+	color:rgba(100,255,100,0.5);
+	font-size:45pt;
+}
+
+h3{
+	font-size:15pt;
+}*/
+
+#welcome{
+	color:green;
+	font-size:50pt;
+}
+
+#tagline{
+	color:orange;
+	font-weight:bold;
+}
+
+.space{
+	margin:10px;
+}
+.bluecolor{
+	color:blue;
+}
+
+.redcolor{
+	color:red;
+}
