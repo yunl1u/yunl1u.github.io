@@ -2,6 +2,7 @@
   <head>
     <title>CollModel</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -15,7 +16,7 @@
           <div class="card text-center space">
             <div class="card-block">
               <img class="rounded-circle" src="img/20140528_212702.jpg" height="170" width="120">
-              <h4 class="card-title">Collecitons Modelling</h4>
+              <h4 class="card-title animated bounce infinite">Collecitons Modelling</h4>
               <p class="card-text">
                 This is to predict the future of the collections.
               </p>
@@ -49,18 +50,19 @@
           <div class="card space">
             <div class="card-block">
               <form>
-                <p>Temperature:</p>
-                <p><input type="number"></p>
-                <p>RH:</P>
-                <p><input type="number"></p>
                 <p>Materials:</p>
-                <p><input type="radio" name="material">Paper</p>
-                <p><input type="radio" name="material">Paints</p>
-                <p><input type="radio" name="material">Wood</p>
-                <p><input type="radio" name="material">Plastics</p>
-                <p><input type="radio" name="material">Metal</p>
-                <p><input type="radio" name="material">Stone</p>
-                <p><input type="radio" name="material">Colour photographs</p>
+                <p><input type="text"></p>
+                <p>Risks:</p>
+                <p><input type="checkbox" name="risk">Physical Forces</p>
+                <p><input type="checkbox" name="risk">Thieves, Vandals, Displacers</p>
+                <p><input type="checkbox" name="risk">Fire</p>
+                <p><input type="checkbox" name="risk">Water</p>
+                <p><input type="checkbox" name="risk">Pests</p>
+                <p><input type="checkbox" name="risk">Pollutants</p>
+                <p><input type="checkbox" name="risk">Light</p>
+                <p><input type="checkbox" name="risk">Incorrect Temperature</p>
+                <p><input type="checkbox" name="risk">Incorrect Relative Humidity</p>
+                <p><input type="checkbox" name="risk">Custodial Neglect</p>
                 <p><input type="submit" value="Submit"></p>
               </form>
             </div>
